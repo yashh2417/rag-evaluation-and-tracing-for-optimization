@@ -111,8 +111,7 @@ We evaluate the pipeline across several distinct matrices (metrics), each using 
   `python -m evals.compare`  
   *This script mathematically compares the newly generated candidate results against the locked `baseline.json`. It flags regressions (declining scores) and improvements, using custom variance tolerances to prevent false-negative build failures caused by LLM judge non-determinism.*
 
-<!-- Paste Offline Baseline vs Candidate Comparison Screenshot Here -->
-![Offline Comparison Screenshot]()
+![Offline Comparison Screenshot](https://github.com/yashh2417/rag-evaluation-and-tracing-for-optimization/blob/main/llm-evals-ss/Screenshot%202026-09-28%20at%2010.18.22%E2%80%AFAM.png?raw=true)
 
 ---
 
@@ -138,8 +137,23 @@ python -m evals.eval_online
 ```
 *(Note: For production, this script can be scheduled as a Cron job).*
 
-<!-- Paste Online Tracing Charts Screenshot Here -->
-![Online Tracing Charts Screenshot]()
+- **Average Faithfulness score chart:**  
+![Average Faithfulness score chart](https://github.com/yashh2417/rag-evaluation-and-tracing-for-optimization/blob/main/llm-evals-ss/Screenshot%202026-09-28%20at%2010.15.50%E2%80%AFAM.png?raw=true)
+
+- **Average Contextual Relevancy score chart:**  
+![Average Contextual Relevancy score chart](https://github.com/yashh2417/rag-evaluation-and-tracing-for-optimization/blob/main/llm-evals-ss/Screenshot%202026-09-28%20at%2010.16.03%E2%80%AFAM.png?raw=true)
+
+- **Average Answer Relevancy score chart:**  
+![Average Answer Relevancy score chart](https://github.com/yashh2417/rag-evaluation-and-tracing-for-optimization/blob/main/llm-evals-ss/Screenshot%202026-09-28%20at%2010.16.14%E2%80%AFAM.png?raw=true)
+
+- **Average Toxicity score chart:**  
+![Average Toxicity score chart](https://github.com/yashh2417/rag-evaluation-and-tracing-for-optimization/blob/main/llm-evals-ss/Screenshot%202026-09-28%20at%2010.16.24%E2%80%AFAM.png?raw=true)
+
+- **Average Cost chart:**  
+![Average Cost chart](https://github.com/yashh2417/rag-evaluation-and-tracing-for-optimization/blob/main/llm-evals-ss/Screenshot%202026-09-28%20at%2010.16.36%E2%80%AFAM.png?raw=true)
+
+- **p95 score chart:**  
+![p95 score chart](https://github.com/yashh2417/rag-evaluation-and-tracing-for-optimization/blob/main/llm-evals-ss/Screenshot%202026-09-28%20at%2010.16.48%E2%80%AFAM.png?raw=true)
 
 ---
 
