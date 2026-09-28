@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "created_at": "2026-09-27T06:49:00+00:00",
+    "full": false,
+    "git_sha": "fcdefeb",
+    "label": "GT-fixes  Prompt-fixes  Llm=gpt-5.6-terra  Embedding=nvidia/llama-nemotron-embed-vl-1b-v2  Rerank=BAAI/bge-reranker-v2-m3  Top k=5  Fetch k=15  Chunk size=600  Chunk overlap=80  Judge model=gpt-5.6-luna",
+    "n_metrics": 21,
+    "prompt_hash": "ba7ac40325b6",
+    "suite_seconds": 1289.7
+  },
+  "metrics": {
+    "application.completeness_[geval].avg_score": 0.9533333333333334,
+    "application.correctness_[geval].avg_score": 1.0,
+    "application.professionalism_[geval].avg_score": 0.9666666666666667,
+    "generator.answer_relevancy.avg_score": 0.9866666666666667,
+    "generator.faithfulness.avg_score": 0.9777777777777777,
+    "ops.cost.budget_pass": true,
+    "ops.cost.cost_per_query_usd": 0.0011670437499999998,
+    "ops.latency.e2e_p95_ms": 14165.879962500194,
+    "ops.latency.slo_e2e_pass": false,
+    "ops.latency.slo_ttft_pass": false,
+    "ops.reliability.error_rate": 0.0,
+    "ops.reliability.success_rate": 100.0,
+    "pipeline.answer_relevancy.avg_score": 0.9866666666666667,
+    "pipeline.contextual_relevancy.avg_score": 0.4788821780190066,
+    "pipeline.faithfulness.avg_score": 1.0,
+    "retriever.contextual_precision.avg_score": 0.8802777777777777,
+    "retriever.contextual_recall.avg_score": 1.0,
+    "safety.leakage.pii_avg_score": 1.0,
+    "safety.leakage.protected_avg_score": 0.9833333333333334,
+    "safety.scope.avg_score": 0.9,
+    "safety.toxicity.avg_toxicity": 1.0
+  }
+}

@@ -1,0 +1,7 @@
+.env
+gt
+test.py
+chroma_store
+__pycache__
+.venv
+.deepeval
